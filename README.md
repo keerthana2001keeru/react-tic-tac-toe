@@ -1,61 +1,51 @@
-# Weather App
+# Tic Tac Toe Game
 
-A simple weather application built using React.js that allows users to check the weather based on their current location or by searching for a specific city.
+This is a classic Tic Tac Toe game implemented in React. It’s designed for two players, who take turns marking spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
 
 ## Features
 
-- 🌍 **Current Location Weather**: Automatically detects the user's location and displays the current weather.
-- 🔍 **Search by City**: Allows users to search for the weather in any city around the world.
-- 🌦️ **Real-time Weather Data**: Fetches weather data from a weather API and displays it in real-time.
-- 📅 **Weather Details**: Provides details such as temperature,city.
-
-## Technologies Used
-
-- **React.js**: Frontend framework for building the user interface.
-- **HTML5 & CSS3**: For basic structure and styling.
-- **OpenWeatherMap API**: To fetch weather data.
+- Two-player mode (Player X and Player O)
+- Simple 3x3 grid layout
+- Win, lose, and draw conditions
+- Reset functionality to play again
 
 ## Getting Started
 
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
 ### Prerequisites
 
-Before you begin, ensure you have the following installed on your machine:
-
-- Node.js (v14 or above)
-- npm (Node Package Manager)
+react
 
 ### Installation
 
 1. Clone the repository:
 
-   git clone https://github.com/keerthana2001keeru/react-weather-app.git
+    git clone https://github.com/keerthana2001keeru/react-tic-tac-toe.git
+    
+2. Install dependencies (if applicable):
 
-   Runs the app in the development mode.\
-   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    [command for installing dependencies, e.g., npm install]
+   
+3. Run the application:
 
-2. Run the development server:
+    [command for starting the application, e.g., npm start]
+    
+4. Open the game:
 
-   npm start
+    If using a local server, open your browser and go to `http://localhost:3000`.
 
+### Usage
 
-## Usage
-When you first load the app, it will request access to your current location to show weather information.
-Use the search bar to find weather details for any city by typing the city name and pressing enter.
+- **Player X** and **Player O** take turns clicking on empty cells to place their mark.
+- The game will detect win conditions and display the winner or announce a draw if all cells are filled without a winner.
+- Click the **Reset** button to start a new game.
 
-Happy Coding! 😊
+### Game Rules
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. The game is played on a grid that's 3 squares by 3 squares.
+2. Players take turns putting their marks (X or O) in empty squares.
+3. The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner.
+4. If all 9 squares are full and neither player has 3 in a row, the game ends in a draw.
 
 
